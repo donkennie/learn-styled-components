@@ -1,9 +1,13 @@
 import { StyledHeader } from "./styles/Header.styled"
-
+import { Container } from "./styles/Container.styled"
 export default function Header(){
     return(
         <StyledHeader>
-            <h1>Hubble</h1>
+            <Container>
+              <Nav>
+                <Logo src='.'></Logo>
+              </Nav>
+            </Container>
         </StyledHeader>
     )
 }
